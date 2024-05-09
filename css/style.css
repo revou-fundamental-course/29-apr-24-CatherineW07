@@ -3,7 +3,7 @@
     justify-content: space-between;
 }
 
-.navigation>nav>button {
+.navigation>nav>a>button {
     border-color: transparent;
     background-color: transparent;
     margin-top: 3px;
@@ -245,11 +245,15 @@ select {
 
 .package-list {
     display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
 }
 
 .ourpackage-content {
     display: flex;
-    margin: 0px 50px 100px 50px;
+    justify-content: center;
+    margin: 0px auto 100px auto;
 }
 
 #ourpackage-line {
@@ -274,11 +278,11 @@ select {
     font-size: 15px;
     color: rgb(132, 89, 143);
     text-align: justify;
-    width: 200px;
+    width: 80%;
 }
 
 .package-list>article {
-    margin: 0px 40px 0px 25px;
+    margin: 0px 50px 0px 20px;
 }
 
 .package-img {
@@ -286,9 +290,9 @@ select {
     border-radius: 50px;
     background-color: rgb(217, 180, 226);
     text-align:center;
-    padding: 10px 10px 10px 10px;
-    margin-left: 20px;
+    padding: 10px 30px 10px 30px;
     margin-top: 20px;
+    margin-left: 10%;
 }
 
 .closing>h1 {
@@ -300,16 +304,16 @@ select {
     margin-top: 5px;
 }
 
-.closing>button {
+.closing>a>button {
     background-color: rgb(132, 89, 143);
-    color: white;
     width: 200px;
     height: 50px;
-    font-size: 20px;
     border: 0px;
     border-radius: 50px;
     display: block;
-    margin: 70px auto 90px auto
+    margin: 70px auto 90px auto;
+    font-size: 20px;
+    color: white;
 }
 
 .footer-line {
@@ -325,21 +329,29 @@ footer>p {
 }
 
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 1060px) {
     .navigation {
         flex-direction: column;
     }
-    nav>button {
+    nav>a>button {
         width: 100%;
         text-align: left;
         margin: 20px 10px 20px 10px;
         height: 30px;
         font-size: 25px;
         border: 0px;
+        padding: 5px 10px 5px 10px;
+        height: 30px;
+        font-size: 15px;
+        margin-left: 10px;
+
     }
+
+
 
     #ourpackagebutton {
         border: 0px;
+        padding: 5px 10px 5px 10px;
     }
     .navigation>div {
         margin: 10px 10px 20px 10px;
@@ -361,7 +373,9 @@ footer>p {
     }
 
     .img-slideshow {
-        width: 100%
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
     }
 
     hr {
@@ -375,17 +389,29 @@ footer>p {
 
     .right-section {
         margin-left: auto;
+        margin-right: auto;
         margin-bottom: auto;
         margin-top: 80px;
+        width: 80%;
+    }
+
+    .form-input>input {
+        width: 85%;
+    }
+
+    #submit-btn {
+        width: 85%;
     }
 
     #ourPackage {
-        margin: 170px 0px 50px 0px
+        margin: 170px 0px 50px 0px;
+        width: 100%;
     }
 
     .ourpackage-content {
         flex-direction: column;
         margin: 20px auto 0px auto;
+        justify-content: center;
     }
 
     #ourpackage-line {
@@ -395,13 +421,25 @@ footer>p {
 
     .package-list {
         margin: 50px auto 20px auto;
+        justify-content: center;
     }
 
-    .package-list>article>p {
-        width: 300px;
+    .package-list>article {
+        width: 70%;
+        margin-left: 30px;
+    }
+
+    .package-img {
+        padding: 10px 15px 10px 15px
     }
 
     #closing-line {
         margin-top: 50px;
+    }
+
+    .ourpackage-content {
+        margin-left: auto;
+        margin-right: auto;
+        justify-content: center;
     }
 }
