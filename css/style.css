@@ -17,6 +17,26 @@
     padding-right: 7px;
 }
 
+a:link {
+    text-decoration: none;
+    color: rgb(132, 89, 143);
+}
+
+a:hover {
+    background-color: rgb(132, 89, 143);
+    color:white;
+}
+
+#title {
+    margin-top: 60px;
+    font-size: 60px;
+    margin-bottom: 0px;
+}
+
+#slogan {
+    margin-bottom: 60px;
+}
+
 .img-slideshow {
     width : 600px;
 }
@@ -119,10 +139,12 @@ h4 {
 .right-section {
     background-color: rgb(227, 206, 232);
     border: 0px;
-    margin: 20px;
+    margin: 20px 50px 20px 20px;
     padding: 25px;
     font-family: sans-serif;
     border-radius: 10px;
+    width: 350px;
+    height: 410px;
 }
 
 .main-content {
@@ -146,7 +168,7 @@ h4 {
 }
 
 .left-section {
-    margin: 20px;
+    margin: 20px 20px 20px 50px;
 }
 
 .right-section>h2, p {
@@ -156,26 +178,55 @@ h4 {
 }
 
 .form-label {
-    padding: 15px 0px 15px 0px;
+    margin: 0px 0px 0px 10px;
     color: white;
 }
 
-form>div>input, select {
+.right-section>p {
+    margin-bottom: 30px;
+}
+
+form>div>input {
     border: 2px solid rgb(132, 89, 143);
     border-radius: 50px;
-    width: 250px;
-    height: 25px;
+    width: 300px;
+    margin: 5px auto 20px 10px;
+    height: 30px;
     padding-left: 15px;
+    padding-right: 15px;
+    color: rgb(132, 89, 143);
+}
+
+form>div>select {
+    border: 2px solid rgb(132, 89, 143);
+    border-radius: 50px;
+    width: 330px;
+    margin: 5px auto 20px 10px;
+    height: 35px;
+    padding-left: 15px;
+    padding-right: 15px;
+    color: rgb(132, 89, 143);
+}
+
+optgroup {
+    color: rgb(132, 89, 143);
+    background-color: rgb(237, 216, 242);
+}
+
+option {
+    color: rgb(172, 123, 184);
+    background-color: white;
 }
 
 #submit-btn {
-    margin-top: 30px;
-    width: 400px;
+    margin: 30px auto 20px 10px;
+    width: 330px;
     background-color: rgb(132, 89, 143);
     border: 0px;
     color: white;
-    height: 30px;
+    height: 35px;
     border-radius: 50px;
+    font-size: 15px;
 } 
 
 select {
@@ -271,4 +322,78 @@ footer>p {
 
 #end {
     margin-bottom: 50px;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .navigation {
+        flex-direction: column;
+    }
+    nav>button {
+        width: 100%;
+        text-align: left;
+        margin: 5px 10px 5px 10px;
+        height: 30px;
+        font-size: 15px;
+        border: 0px;
+    }
+
+    #ourpackagebutton {
+        border: 0px;
+    }
+    .navigation>div {
+        margin: 10px;
+    }
+    .main-content {
+        flex-direction: column;
+    }
+
+    #title {
+        font-size: 50px;
+    }
+
+    .img-slideshow {
+        width: 100%
+    }
+
+    hr {
+        width: 100%;
+    }
+
+    .main-content {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .right-section {
+        margin-left: auto;
+        margin-bottom: auto;
+        margin-top: 80px;
+    }
+
+    #ourPackage {
+        margin: 170px 0px 50px 0px
+    }
+
+    .ourpackage-content {
+        flex-direction: column;
+        margin: 20px auto 0px auto;
+    }
+
+    #ourpackage-line {
+        display: none;
+        margin: 0px;
+    }
+
+    .package-list {
+        margin: 50px auto 20px auto;
+    }
+
+    .package-list>article>p {
+        width: 300px;
+    }
+
+    #closing-line {
+        margin-top: 50px;
+    }
 }

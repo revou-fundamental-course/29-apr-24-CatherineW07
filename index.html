@@ -3,23 +3,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio</title>
+    <title>Bunny travel agent</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
     <header class="navigation">
-        <div style="background-image: url(assets/bunni.png); height: 32px; width:32px; background-size: cover;"></div>
+    <div style="background-image: url(assets/bunni.png); background-size:cover; height: 32px; width:32px;"></div>
         <nav>
-            <button>Home</button>
-            <button id="ourpackagebutton">Our Package</button>
-            <button>Contact us</button>
+            <button><a href="#title">Home</a></button>
+            <button id="ourpackagebutton"><a href="#ourPackage">Our Package</a></button>
+            <button><a href="#sign-up">Sign up</a></button>
         </nav>
     </header>
     <hr>
     <section>
         <header>
-            <h1>Bunny Travel Agent</h1>
-            <h3>Your happiness is Bunny'<small></small> happiness</h3>
+            <h1 id="title">Bunny Travel Agent</h1>
+            <h3 id="slogan">Your happiness is Bunny's<small></small> happiness</h3>
         </header>
     </section>
     <section class="main-content">
@@ -61,11 +61,11 @@
             <p>Fill in the form</p>
             <form>
                 <div class="form-input">
-                    <label class="form-label">Your Name:</label>
-                    <input id="form-username" type="text" required>
+                    <label class="form-label" id="Your-name">Your Name:</label>
+                    <input id="form-username" type="text" required placeholder="First and last name">
                     <br>
                     <label class="form-label">Email Adrdress:</label>
-                    <input id="form-email" type="text" required>
+                    <input id="form-email" type="email" required placeholder="example@email.com">
                     <br>
                     <label class="form-label">What are you interested in?</label>
                     <select>
@@ -81,7 +81,7 @@
                         </optgroup>
                     </select>
                 </div>
-                <button type="button" id="submit-btn">Send</button>
+                <button type="button" id="submit-btn">SEND</button>
             </form>
         </div>
     </section>
@@ -147,9 +147,9 @@
         </article>
     </section>
 
-    <hr>
+    <hr id="closing-line">
 
-    <section class="closing">
+    <section class="closing" id="sign-up">
         <h1>Embark on a whimsical journey with us!</h1>
         <p>Lorem ipsum</p>
         <button>SIGN UP</button>
