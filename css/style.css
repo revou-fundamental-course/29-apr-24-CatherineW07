@@ -336,10 +336,15 @@ footer>p {
     nav>a>button {
         width: 100%;
         text-align: left;
+        margin: 20px 10px 20px 10px;
+        height: 30px;
+        font-size: 25px;
+        border: 0px;
         padding: 5px 10px 5px 10px;
         height: 30px;
         font-size: 15px;
         margin-left: 10px;
+
     }
 
 
@@ -349,7 +354,7 @@ footer>p {
         padding: 5px 10px 5px 10px;
     }
     .navigation>div {
-        margin: 10px;
+        margin: 10px 10px 20px 10px;
     }
     .main-content {
         flex-direction: column;
@@ -357,6 +362,14 @@ footer>p {
 
     #title {
         font-size: 50px;
+    }
+
+    select {
+        width: 270px;
+    }
+
+    #submit-btn {
+        width: 90%;
     }
 
     .img-slideshow {

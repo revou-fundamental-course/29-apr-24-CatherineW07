@@ -1,3 +1,4 @@
+//slideshow
 let slideIndex = 1;
 showDivs(slideIndex);
 
@@ -22,7 +23,7 @@ setInterval(() => {
 }, 3000)
  
 
-//form
+//form validation
 function validation() {
     let username = document.getElementById("form-username");
     console.log(username.value);
