@@ -1,0 +1,274 @@
+.navigation {
+    display: flex;
+    justify-content: space-between;
+}
+
+.navigation>nav>button {
+    border-color: transparent;
+    background-color: transparent;
+    margin-top: 3px;
+    color:rgb(132, 89, 143)
+}
+
+#ourpackagebutton {
+    border-left-color: rgb(217, 180, 226);
+    border-right-color: rgb(217, 180, 226);
+    padding-left: 7px;
+    padding-right: 7px;
+}
+
+.img-slideshow {
+    width : 600px;
+}
+
+.img-button {
+    background-color: rgb(172, 123, 184);
+    border: 0px;
+    border-radius: 50px;
+    color: rgb(247, 240, 249);
+    width: 49%;
+    height: 25px;
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+h1 {
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 40px;
+    color:rgb(132, 89, 143); 
+}
+
+
+h3 {
+    text-align: center;
+    font-family: sans-serif;
+    color: rgb(217, 180, 226)
+}
+
+hr {
+    border-color: rgb(172, 123, 184);
+}
+
+#customerpict {
+    border: 0px solid black;
+    border-radius: 50px;
+    background-color: rgb(217, 180, 226);
+}
+
+.customer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left:auto;
+    margin-right: auto;
+}
+
+.customername {
+    font-family: sans-serif;
+    margin-left: 20px;
+    margin-right: auto;
+    color:rgb(172, 123, 184);
+    text-align: left;
+}
+
+#customerpict {
+ margin-left: auto;;
+}
+
+#testimony {
+    text-align: center;
+    color: rgb(172, 123, 184);
+    margin: 70px auto 30px auto;
+}
+
+#testimony-line {
+    width: 150px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 40px;
+    border-width: 0px;
+    background-color: rgb(208, 173, 217);
+    height: 3px;
+    border-radius: 50px;
+}
+
+h4 {
+    font-size: 20px;
+    font-family: sans-serif;
+    color:rgb(132, 89, 143);
+}
+
+.list {
+    font-family: sans-serif;
+    font-size: 20px;
+    color:rgb(132, 89, 143);
+    border-radius: 50px;
+    background-color: rgb(217, 180, 226);
+    text-align:center;
+    padding: 10px 15px 10px 15px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.information {
+    display: flex;
+    flex-direction: row;
+}
+
+.right-section {
+    background-color: rgb(227, 206, 232);
+    border: 0px;
+    margin: 20px;
+    padding: 25px;
+    font-family: sans-serif;
+    border-radius: 10px;
+}
+
+.main-content {
+    display: flex; 
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+#moreinfo {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 10px;
+    font-size: 30px;
+}
+
+.info {
+    margin: 30px 0px 0px 20px;
+    font-family: sans-serif;
+    font-size: 15px;
+    color: rgb(172, 123, 184);
+}
+
+.left-section {
+    margin: 20px;
+}
+
+.right-section>h2, p {
+    text-align: center;
+    color: rgb(132, 89, 143);
+    margin: 0px 0px 5px 0px;
+}
+
+.form-label {
+    padding: 15px 0px 15px 0px;
+    color: white;
+}
+
+form>div>input, select {
+    border: 2px solid rgb(132, 89, 143);
+    border-radius: 50px;
+    width: 250px;
+    height: 25px;
+    padding-left: 15px;
+}
+
+#submit-btn {
+    margin-top: 30px;
+    width: 400px;
+    background-color: rgb(132, 89, 143);
+    border: 0px;
+    color: white;
+    height: 30px;
+    border-radius: 50px;
+} 
+
+select {
+    width: 150px;
+    height: 25px
+}
+
+#ourPackage {
+    background-color: rgb(132, 89, 143);
+    color:white;
+    height: 100px;
+    width: 100%;
+    padding: 50px 0px 0px 0px;
+    margin: 100px 0px 100px 0px;
+}
+
+.package-list {
+    display: flex;
+}
+
+.ourpackage-content {
+    display: flex;
+    margin: 0px 50px 100px 50px;
+}
+
+#ourpackage-line {
+    margin: 100px auto 100px auto;
+    width: 400px;
+    align-content: center;
+    height: 3px;
+    border: 0px;
+    background-color: rgb(205, 173, 214);
+    border-radius: 50px;
+}
+
+.package-list>article>h2 {
+    font-family: sans-serif;
+    font-size: 30px;
+    color: rgb(132, 89, 143);
+    text-align: left;
+}
+
+.package-list>article>p {
+    font-family: sans-serif;
+    font-size: 15px;
+    color: rgb(132, 89, 143);
+    text-align: justify;
+    width: 200px;
+}
+
+.package-list>article {
+    margin: 0px 40px 0px 25px;
+}
+
+.package-img {
+    color:rgb(132, 89, 143);
+    border-radius: 50px;
+    background-color: rgb(217, 180, 226);
+    text-align:center;
+    padding: 10px 10px 10px 10px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.closing>h1 {
+    margin-top: 90px;
+}
+
+.closing>p {
+    font-family: sans-serif;
+    margin-top: 5px;
+}
+
+.closing>button {
+    background-color: rgb(132, 89, 143);
+    color: white;
+    width: 200px;
+    height: 50px;
+    font-size: 20px;
+    border: 0px;
+    border-radius: 50px;
+    display: block;
+    margin: 70px auto 90px auto
+}
+
+.footer-line {
+    margin-bottom: 50px;
+}
+
+footer>p {
+    font-family: sans-serif;
+}
+
+#end {
+    margin-bottom: 50px;
+}

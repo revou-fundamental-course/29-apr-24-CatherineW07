@@ -3,9 +3,164 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+    <header class="navigation">
+        <div style="background-image: url(assets/bunni.png); height: 32px; width:32px; background-size: cover;"></div>
+        <nav>
+            <button>Home</button>
+            <button id="ourpackagebutton">Our Package</button>
+            <button>Contact us</button>
+        </nav>
+    </header>
+    <hr>
+    <section>
+        <header>
+            <h1>Bunny Travel Agent</h1>
+            <h3>Your happiness is Bunny'<small></small> happiness</h3>
+        </header>
+    </section>
+    <section class="main-content">
+        <div class="left-section">
+            <div class="slideshow">
+                <img class="img-slideshow" src="assets/bunny1.jpg">
+                <img class="img-slideshow" src="assets/bunny2.jpg">
+                <img class="img-slideshow" src="assets/bunny3.jpg">
+                <img class="img-slideshow" src="assets/bunny4.jpg">
+                <button onclick="plusDivs(-1)" class="img-button"><</button>
+                <button onclick="plusDivs(1)" class="img-button">></button>
+            </div>
+            <p id="testimony"><em>"Liburanku jadi menyenangkan bersama Bunny Travel Agent."</em></p>
+            <article class="customer">
+                <div id="customerpict" style="background-image: url(assets/bebek.png); height: 50px; width:50px; background-size:cover;"></div>
+                <div class="customername">
+                    <h4 style="margin-top: 5px; margin-bottom: 0px;">Florence Hughes</h4>
+                    <p style="margin-top: 5px; margin-bottom: 0px;font-size: 12px;"><em>Ibu rumah tangga</em></p>
+                </div>
+            </article>
+            
+            <hr id="testimony-line">
+            <h4 id="moreinfo">More information about my offer</h4>
+            <div class="information">
+                <p class="list"><b>1</b></p>
+                <p class="info">Lorem ipsum</p>
+            </div>
+            <div class="information">
+                <p class="list"><b>2</b></p>
+                <p class="info">Lorem ipsum</p>
+            </div>
+            <div class="information">
+                <p class="list"><b>3</b></p>
+                <p class="info">Lorem ipsum</p>
+            </div>
+        </div>
+        <div class="right-section">
+            <h2>Contact Us</h2>
+            <p>Fill in the form</p>
+            <form>
+                <div class="form-input">
+                    <label class="form-label">Your Name:</label>
+                    <input id="form-username" type="text" required>
+                    <br>
+                    <label class="form-label">Email Adrdress:</label>
+                    <input id="form-email" type="text" required>
+                    <br>
+                    <label class="form-label">What are you interested in?</label>
+                    <select>
+                        <optgroup label="National">
+                            <option>Bandung</option>
+                            <option>Bali</option>
+                            <option>Surabaya</option>
+                        </optgroup>
+                        <optgroup label="International">
+                            <option>Japan</option>
+                            <option>Singapore</option>
+                            <option>Malaysia</option>
+                        </optgroup>
+                    </select>
+                </div>
+                <button type="button" id="submit-btn">Send</button>
+            </form>
+        </div>
+    </section>
     
+    <section>
+        <header>
+            <h1 id="ourPackage">Our Package</h1>
+        </header>
+    </section>
+    <section>
+        <article class="ourpackage-content">
+            <div class="package-list">
+                <div class="package-img" style="background-image: url(assets/2606517_5856.png); height: 50px; width:50px; background-size:cover;"></div>
+                <article>
+                    <h2>Bandung</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                </article>
+            </div>
+    
+            <div class="package-list">
+                <div class="package-img" style="background-image: url(assets/2606517_5856.png); height: 50px; width:50px; background-size:cover;"></div>
+                <article>
+                    <h2>Bali</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                </article>
+            </div>
+    
+            <div class="package-list">
+                <div class="package-img" style="background-image: url(assets/2606517_5856.png); height: 50px; width:50px; background-size:cover;"></div>
+                <article>
+                    <h2>Surabaya</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                </article>
+            </div>
+        </article>
+       
+        <hr id="ourpackage-line">
+
+        <article class="ourpackage-content">
+            <div class="package-list">
+                <div class="package-img" style="background-image: url(assets/2606517_5856.png); height: 50px; width:50px; background-size:cover;"></div>
+                <article>
+                    <h2>Jepang</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                </article>
+            </div>
+            
+            <div class="package-list">
+                <div class="package-img" style="background-image: url(assets/2606517_5856.png); height: 50px; width:50px; background-size:cover;"></div>
+                <article>
+                    <h2>Singapore</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                </article>
+            </div>
+    
+            <div class="package-list">
+                <div class="package-img" style="background-image: url(assets/2606517_5856.png); height: 50px; width:50px; background-size:cover;"></div>
+                <article>
+                    <h2>Malaysia</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                </article>
+            </div>
+        </article>
+    </section>
+
+    <hr>
+
+    <section class="closing">
+        <h1>Embark on a whimsical journey with us!</h1>
+        <p>Lorem ipsum</p>
+        <button>SIGN UP</button>
+    </section>
+
+    <hr class="footer-line">
+
+    <footer>
+        <p>Terms of Service - Privacy Policy</p>
+        <p id="end">2024 Bunny Travel</p>
+    </footer>
+    <script src="js/script.js"></script>
 </body>
 </html>
