@@ -332,9 +332,9 @@ footer>p {
     nav>button {
         width: 100%;
         text-align: left;
-        margin: 5px 10px 5px 10px;
+        margin: 30px 10px 30px 10px;
         height: 30px;
-        font-size: 15px;
+        font-size: 25px;
         border: 0px;
     }
 
@@ -342,7 +342,7 @@ footer>p {
         border: 0px;
     }
     .navigation>div {
-        margin: 10px;
+        margin: 20px;
     }
     .main-content {
         flex-direction: column;
@@ -369,6 +369,14 @@ footer>p {
         margin-left: auto;
         margin-bottom: auto;
         margin-top: 80px;
+    }
+
+    select {
+        width: 270px;
+    }
+
+    #submit-btn {
+        width: 90%;
     }
 
     #ourPackage {
